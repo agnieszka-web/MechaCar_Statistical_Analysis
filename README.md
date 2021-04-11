@@ -3,6 +3,12 @@
 ## Project overview
 To perform statistical analysis using the production data for insights to help the manufacturing team with production troubles. 
 
+## Resources
+* R
+* library: dplyr
+* RStudio
+* Datasets: MechaCar_mpg.csv, Suspension_Coil.csv
+
 
 ## Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -23,7 +29,7 @@ With the Multiple R-squared at 0.7149 (71%) it shows that this model would not p
  
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-* As seen in the lot summary below, Lot 1 and Lot 2 have the same Median and variance is closer to zero so they are within design specifications.  Lot 3 has higher variance, so it does not meet the design specifications. 
+* As seen in the lot summary below, Lot 1 and Lot 2 have the same Median and variance is closer to zero so they are within design specifications. Lot 3 has higher variance, so it does not meet the design specifications. 
 
 ![](images/delivarable2totalsummary.PNG)
 ![](images/delivarable2lotsummary.PNG)
