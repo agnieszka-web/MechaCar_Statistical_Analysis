@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-* Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The linear regression model shows that the 
 
 * vehicle_weight 0.0776 p-value
@@ -18,7 +18,8 @@ With the Multiple R-squared at 0.7149 (71%) it shows that this model would not p
 ![](images/delivarable1.PNG)
  
 ## Summary Statistics on Suspension Coils
-* The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+* As seen in the lot summary below, Lot 1 and Lot 2 have the same Median and variance is closer to zero so they are within design spesifications.  Lot 3 has higher variance so it does not meet the design specifications. 
 
 ![](images/delivarable2totalsummary.PNG)
 ![](images/delivarable2lotsummary.PNG)
@@ -29,7 +30,6 @@ With the Multiple R-squared at 0.7149 (71%) it shows that this model would not p
 
 
 ## Study Design: MechaCar vs Competition
-* What metric or metrics are you going to test?
-* What is the null hypothesis or alternative hypothesis?
-* What statistical test would you use to test the hypothesis? And why?
-* What data is needed to run the statistical test?
+Some of the features people might be interested in when buying a new car is the cost, fuel efficiency, trunk space, if the heater works well in the winter.  If somebody is interested in hiking a null hypothesis would be , do other cars have a bigger trunk space? The alternative hypothesis would be does this car have bigger trunk space.   Anova test would compare multiple trank sizes from different car manufucturers.  
+
+
